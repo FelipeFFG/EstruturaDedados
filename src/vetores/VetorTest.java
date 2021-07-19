@@ -1,4 +1,4 @@
-import com.sun.security.jgss.GSSUtil;
+package vetores;
 
 public class VetorTest {
 
@@ -22,7 +22,7 @@ public class VetorTest {
         Aluno a3 = new Aluno("Danilo");
         System.out.println(lista.contem(a3));
 
-       // Aluno x = lista.pega(158);
+       // vetores.Aluno x = lista.pega(158);
        // System.out.println(x);
 
         lista.adiciona(1,a3);
@@ -36,5 +36,8 @@ public class VetorTest {
             lista.adiciona(y);
         }
         System.out.println(lista);
+
+
+
     }
 }
